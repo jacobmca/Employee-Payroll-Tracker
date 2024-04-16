@@ -29,13 +29,28 @@ return employees;
 };
 
 // Display the average salary
-const displayAverageSalary = function(employeesArray) {
-  // TODO: Calculate and display the average salary
+const displayAverageSalary = function(employees) {
+if (employees.length > 0) {
+  let totalSalary = 0;
+  for(let i=0; i < employees.length; i++) {
+    totalSalary += employees[i].salary;
+  }
+
+  let avg = totalSalary / employees.length
+  console.log("The average salary is $" + `${avg}` + ".")
+} else {
+  console.log("No employees added yet.")
 }
+};
 
 // Select a random employee
-const getRandomEmployee = function(employeesArray) {
-  // TODO: Select and display a random employee
+const getRandomEmployee = function(employees) {
+  if (employees.length > 0) {
+    let randomUser = employees[Math.floor(Math.random() * employees.length)]
+    console.log("Today\'s random employee is " + `${randomUser.firstName} ${randomUser.lastName}` + "!")
+  } else {
+    console.log("No random employee.")
+  }
 }
 
 /*
