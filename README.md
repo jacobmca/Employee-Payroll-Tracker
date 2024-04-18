@@ -6,7 +6,7 @@ This is my completed repository for the UC Berkeley eDX Bootcamp's challenge for
 
 This repository takes the original, unsolved code provided for this week's unit and updates it to include a working collectEmployees function that allows a user to add employees to the page's chart. This updated code also includes completed displayAverageSalary and getRandomEmployee functions, which will calculate average employee salary and select a randomly employee respectively.
 
-Completing this project has helped me display and reinforce my knowledge of basic JavaScript concepts in a project with discernable utility.
+Completing this project has helped display and reinforce my knowledge of basic JavaScript concepts in a project with discernable utility.
 
 ## Installation
 

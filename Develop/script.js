@@ -37,7 +37,7 @@ if (employees.length > 0) {
   }
 
   let avg = totalSalary / employees.length
-  console.log("The average salary is $" + `${avg}` + ".")
+  console.log("The average salary between our " + `${employees.length}` + " employees is $" + `${avg}` + ".")
 } else {
   console.log("No employees added yet.")
 }
@@ -47,7 +47,7 @@ if (employees.length > 0) {
 const getRandomEmployee = function(employees) {
   if (employees.length > 0) {
     let randomUser = employees[Math.floor(Math.random() * employees.length)]
-    console.log("Today\'s random employee is " + `${randomUser.firstName} ${randomUser.lastName}` + "!")
+    console.log("Congratulations to " + `${randomUser.firstName} ${randomUser.lastName}` + ", our random drawing winner!")
   } else {
     console.log("No random employee.")
   }
