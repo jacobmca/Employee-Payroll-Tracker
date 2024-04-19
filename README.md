@@ -2,9 +2,9 @@
 
 ## Description
 
-This is my completed repository for the UC Berkeley eDX Bootcamp's challenge for Week 3: JavaScript. I completed this challenge to display my understanding of the fundamentals of JavaScript; it specifically displays usage of variables, loops, arrays, functions, and a number of other common JavaScript concepts.
+This is my repository for the UC Berkeley eDX Bootcamp's challenge for Week 3: JavaScript. I completed this challenge to display my understanding of the fundamentals of JavaScript; it specifically displays usage of variables, loops, arrays, functions, and a number of other common JavaScript concepts.
 
-This repository takes the original, unsolved code provided for this week's unit and updates it to include a working collectEmployees function that allows a user to add employees to the page's chart. This updated code also includes completed displayAverageSalary and getRandomEmployee functions, which will calculate average employee salary and select a randomly employee respectively.
+This repository takes the unsolved code provided for this week's unit and updates it to include a working collectEmployees function, which allows a user to add employees to the page's chart. This updated code also includes completed displayAverageSalary and getRandomEmployee functions, which calculate average employee salary and select a randomly employee respectively.
 
 Completing this project has helped display and reinforce my knowledge of basic JavaScript concepts in a project with discernable utility.
 
@@ -19,7 +19,7 @@ To install, please clone this repository to your computer using the following st
 
 ## Usage
 
-To view this site, either visit the link <https://jacobmca.github.io/01-HTML-Git-CSS-Challenge/> or open the Employee-Payroll-Tracker/develop/index.html file on any major browser from your computer.
+To view this site, either visit the link <https://jacobmca.github.io/Employee-Payroll-Tracker/> or open the Employee-Payroll-Tracker/index.html file on any major browser from your computer.
 
 ## Screenshot
 
