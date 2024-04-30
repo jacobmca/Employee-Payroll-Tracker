@@ -6,12 +6,12 @@ let collectEmployees = function() {
   let employees = [];
   let addEmployee = true;
   while(addEmployee) {
-    let firstName = prompt("Enter first name:");
+    let firstName = prompt("Enter first name");
     let lastName = prompt("Enter last name");
     let salary;
 
     while (true) {
-      salary = parseFloat(prompt("enter salary"));
+      salary = parseFloat(prompt("Enter salary"));
       if (!isNaN(salary)) break;
       alert("You did not enter a number.")
     }
