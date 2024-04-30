@@ -2,17 +2,19 @@
 const addEmployeesBtn = document.querySelector('#add-employees-btn');
 
 // Collect employee data
-const collectEmployees = function() {
-  const employees = [];
+let collectEmployees = function() {
+  let employees = [];
   let addEmployee = true;
   while(addEmployee) {
     let firstName = prompt("Enter first name:");
     let lastName = prompt("Enter last name");
-    let salary = parseFloat(prompt("Enter salary"));
- 
-  if(isNaN(salary)) {
-    salary = 0
-  }
+    let salary;
+
+    while (true) {
+      salary = parseFloat(prompt("enter salary"));
+      if (!isNaN(salary)) break;
+      alert("You did not enter a number.")
+    }
 
   employees.push({
     firstName: firstName,

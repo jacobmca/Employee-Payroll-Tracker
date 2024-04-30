@@ -2,9 +2,11 @@
 
 ## Description
 
-This is my repository for the UC Berkeley eDX Bootcamp's challenge for Week 3: JavaScript. I completed this challenge to display my understanding of the fundamentals of JavaScript; it specifically displays usage of variables, loops, arrays, functions, and a number of other common JavaScript concepts.
+This is my updated repository for the UC Berkeley eDX Bootcamp's challenge for Week 3: JavaScript. I  originallycompleted this challenge to display my understanding of the fundamentals of JavaScript; it specifically displays usage of variables, loops, arrays, functions, and a number of other common JavaScript concepts.
 
-This repository takes the unsolved code provided for this week's unit and updates it to include a working collectEmployees function, which allows a user to add employees to the page's chart. This updated code also includes completed displayAverageSalary and getRandomEmployee functions, which calculate average employee salary and select a randomly employee respectively.
+This repository takes the unsolved code provided for Week 3's unit and updates it to include a working collectEmployees function, which allows a user to add employees to the page's chart. This updated code also includes completed displayAverageSalary and getRandomEmployee functions, which calculate average employee salary and select a randomly employee respectively.
+
+This particular, updated assigned changes the code so the salary alert will now only accept a number, the user being prompted to try again if they attempt to enter anything else. Additionally, it reorganizes the folders so the CSS and JS are located in separate, individually labeled folders with the larger "Assets" folder.
 
 Completing this project has helped display and reinforce my knowledge of basic JavaScript concepts in a project with discernable utility.
 
@@ -23,7 +25,7 @@ To view this site, either visit the link <https://jacobmca.github.io/Employee-Pa
 
 ## Screenshot
 
-![Screenshot](Assets/screenshot.png)
+![Screenshot](Assets/images/screenshot.png)
 
 ## Credits
 
